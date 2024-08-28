@@ -1,1 +1,13 @@
 .DS_Store
+vga_midi.xpr
+vga_test_pattern_shell_tb_behav.wcfg
+vivado.jou
+vivado.log
+vivado_8800.backup.jou
+vivado_8800.backup.log
+vivado_8924.backup.jou
+vivado_8924.backup.log
+vivado_pid13096.str
+vivado_pid14884.str
+vivado_pid8924.str
+VsyncTiming.png 

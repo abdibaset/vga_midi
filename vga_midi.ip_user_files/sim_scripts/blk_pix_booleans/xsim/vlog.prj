@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../vga_midi.gen/sources_1/ip/blk_pix_booleans/sim/blk_pix_booleans.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

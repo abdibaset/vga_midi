@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun May 28 21:21:48 2023
+# Process ID: 8800
+# Current directory: O:/engs31/vga_midi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5004 O:\engs31\vga_midi\vga_midi.xpr
+# Log file: O:/engs31/vga_midi/vivado.log
+# Journal file: O:/engs31/vga_midi\vivado.jou
+# Running On: mecha-10, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 16953 MB
+#-----------------------------------------------------------
+start_gui
+open_project O:/engs31/vga_midi/vga_midi.xpr
+uupdate_compile_order -fileset sources_1update_compile_order -fileset sources_1
+
+iles O:/engs31/vga_midi/vga_midi.srcs/sources_1/new/27.5.23_NoteDisplay] -no_script -reset -force -quiet
+remove_files  O:/engs31/vga_midi/vga_midi.srcs/sources_1/new/27.5.23_NoteDisplay

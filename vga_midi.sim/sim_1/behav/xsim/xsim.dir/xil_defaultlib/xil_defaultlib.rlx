@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.gen/sources_1/ip/blk_mem_gen_0_2/sim/blk_mem_gen_0.v,1685597298,verilog,,,,blk_mem_gen_0,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.gen/sources_1/ip/blk_pix_booleans/sim/blk_pix_booleans.v,1685461332,verilog,,O:/CS56_S23/vga_midi/vga_midi/vga_midi.gen/sources_1/ip/blk_mem_gen_0_2/sim/blk_mem_gen_0.v,,blk_pix_booleans,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sim_1/imports/VGA_FinalProject/vga_driver_tb.vhd,1686018769,vhdl,,,,vga_test_pattern_shell_tb,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/imports/VGA_FinalProject/clock_generation.vhd,1684840186,vhdl,,,,clock_generation,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/imports/VGA_FinalProject/vga_driver.vhd,1685368748,vhdl,,,,vga_driver,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/imports/VGA_FinalProject/vga_test_pattern_shell.vhd,1686019837,vhdl,,,,vga_test_pattern_shell,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/new/27.5.23_NoteDisplay,1686011139,vhdl,,,,notedisplay,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/new/BLOCK_MOVER.vhd,1686010222,vhdl,,,,memblockshiftcircuit,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/new/DetermineHIT.vhd,1686011682,vhdl,,,,determinehit,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/new/KeyCompareCircuit.vhd,1686018341,vhdl,,,,keycomparecircuit,,,,,,,,
+O:/CS56_S23/vga_midi/vga_midi/vga_midi.srcs/sources_1/new/SCI_Rx.vhd,1686018996,vhdl,,,,sci_rx,,,,,,,,

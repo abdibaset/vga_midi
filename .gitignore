@@ -14,3 +14,5 @@ vivado_pid8924.str
 VsyncTiming.png
 .Xil
 vga_midi.cache
+vga_midi.hw
+vga_midi.sim

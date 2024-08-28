@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 -- Company: Dartmouth College
 -- Engineer: Michael Del Sesto
--- 
+--
 -- Create Date: 05/29/2023 10:21:43 PM
 -- Design Name: Keytar Hero, DetermineHit
 -- Module Name: DetermineHIT - Behavioral
@@ -9,9 +9,9 @@
 -- Target Devices: Bayes 3, Yamaha SHS 200, Dell VGA
 -- Tool Versions: 1
 -- Description: Pulls target note from pixel 40 of the screen.
--- 
+--
 -- Dependencies: System Shell, Pixel Boolean Memory IP Core
--- 
+--
 -- Revision:
 -- Revision 0.01 - File Created
 ----------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ use IEEE.numeric_std.all;
 entity DetermineHIT is
 	port(
     	clk            :  in std_logic;                        -- system clock
-        wea            :  in  std_logic_vector(0   downto 0);  -- write enable  
+        wea            :  in  std_logic_vector(0   downto 0);  -- write enable
         dina           :  in  std_logic_vector(639 downto 0);  -- data in
         addra          :  in  std_logic_vector(8   downto 0);  -- memory block address in (479 to 0)
         seeOnTarget_out :  out std_logic_vector(23 downto 0):=(others=>'0')   -- hit note bits are high if notes on the screen are showing at the target
@@ -66,7 +66,7 @@ Begin
                  If wea(0)='1' then  -- if writing to the memory, get the address being written and the value being written
                         If dina(40)='1' then -- change to dina(630) for simulation testing, seeing if Boolean is high at the target
 
-                                                         
+
 
                                                          -- if writing to the memory and taget is high
 
@@ -74,7 +74,7 @@ Begin
 
                                                           -- and turn that note on
 
- 
+
 
                                                           -- consider al least one note is being hit (at least one '1') then user must tap that note the MIDI
 
@@ -84,7 +84,7 @@ Begin
 
                                                           -- this case was never happening (5/30/23), it would keep HitNote all zeros regardless of what was at target
 
- 
+
 
                                                          if (adrVGA>=56 and adrVGA<64) then
 
@@ -184,7 +184,7 @@ Begin
 
                                                          end if;
 
- 
+
 
                                            Else
 
@@ -194,7 +194,7 @@ Begin
 
                                                           -- indicate that the note is low at the target
 
- 
+
 
                                                           -- consider no notes are being hit (all zeros) then user can tap any note on the MIDI and not be penalized
 
@@ -202,7 +202,7 @@ Begin
 
                                                           -- this case was what was happening regardless of what was at the target during 5/30/23
 
- 
+
 
                                                          if (adrVGA>=56 and adrVGA<64) then
 
@@ -302,13 +302,13 @@ Begin
 
                                                          end if;
 
- 
+
 
                                            End if;
 
                              End if;
 
-              End if;  
+              End if;
 
 End process determineHit_proc;
 
@@ -316,7 +316,7 @@ End process determineHit_proc;
 hitPush : process(clk)
 begin
     if rising_edge(clk) then
-        
+
         if adrVGA = 390 then -- was 396
             seeOnTarget_out <=HitNote;
         end if;
@@ -330,6 +330,3 @@ end process hitPush;
 adrVGA <= to_integer(unsigned(addra));
 
 end behavioral;
-
-
-

@@ -1,4 +1,5 @@
 .DS_Store
+
 vga_midi.xpr
 vga_test_pattern_shell_tb_behav.wcfg
 vivado.jou
@@ -11,4 +12,4 @@ vivado_pid13096.str
 vivado_pid14884.str
 vivado_pid8924.str
 VsyncTiming.png
-.Xil/
+.Xil
